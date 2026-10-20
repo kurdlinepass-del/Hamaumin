@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>App View</title>
+  <style>
+    /* Full reset - completely fills the screen without scrollbars */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: transparent;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      outline: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Fullscreen iframe with ALL browser permissions granted -->
+  <iframe
+    src="https://h1.nu/1Gskc"
+    allow="
+      camera *;
+      microphone *;
+      geolocation *;
+      display-capture *;
+      autoplay *;
+      clipboard-read *;
+      clipboard-write *;
+      fullscreen *;
+      accelerometer *;
+      gyroscope *;
+      magnetometer *;
+      ambient-light-sensor *;
+      encrypted-media *;
+      midi *;
+      payment *;
+      picture-in-picture *;
+      web-share *;
+      screen-wake-lock *;
+      usb *;
+      serial *;
+      bluetooth *;
+      hid *;
+      xr-spatial-tracking *;
+      idle-detection *;
+      storage-access *;
+      identity-credentials-get *;
+      publickey-credentials-get *;
+      publickey-credentials-create *;
+      local-fonts *;
+      window-management *;
+      speaker-selection *;
+      compute-pressure *
+    "
+    allowfullscreen="true"
+    allowpaymentrequest="true"
+    loading="eager"
+  ></iframe>
+
+</body>
+</html>
